@@ -1,0 +1,24 @@
+.first-image, .second-image, .third-image, .fourth-image, .fifth-image{
+    width:300px;
+    margin-bottom: 40px;
+}
+.first-image, .third-image, .fifth-image{
+    margin-left: 20px;
+}
+.first-image-title, .second-image-title, .third-image-title, .fourth-image-title, .fifth-image-title{
+    position:absolute; 
+    background-color: #1CAEA6;
+    width:300px;
+    text-align: center;
+    color:white;
+}
+.first-image-title, .third-image-title, .fifth-image-title{
+    margin-top: -128px;
+    margin-left: 20px;
+}
+h4{
+    padding: 15px 0px;
+}
+.second-image-title, .fourth-image-title{
+    margin-top:-128px;
+}

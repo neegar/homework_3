@@ -1,0 +1,11 @@
+.picture-cat{
+    width:200px;
+    float:left;
+    margin-right: 25px;
+    margin-bottom:10px; 
+}
+.lo-text{
+  font-family: 'Noticia Text', serif;  
+  font-size:18px; 
+  color:rgb(104, 103, 103);
+}

@@ -1,0 +1,86 @@
+body{
+    background-image: url(../../concrete_seamless.png); 
+}
+.header{
+   position:fixed;
+   width:100%; 
+   border-bottom:2px solid rgb(202, 198, 198);
+   z-index: 5;
+}
+.header .logo-name {
+   margin-left: 10em !important;
+   background-color: #1CAEA6 ;
+   height: 90px;
+   }
+.header .logo-name h1{
+   color: white;
+   text-transform: capitalize;
+   padding-left: 50px;
+   padding-right:50px;
+   padding-bottom:40px;
+   margin-top: 10px;
+   font-family:'Noto Serif', serif;
+   font-size: 33px;
+}
+.menu li+li a::before{
+content:"|"; 
+padding-right:20px;
+color:gainsboro;
+}
+.header .menu{
+   margin-right: 6em !important;
+   font-size: 18px;
+   padding-top: 20px;
+   color: rgb(219, 216, 216);
+}
+.information .my-information{
+    background-color: white;
+    margin-top:130px;
+    margin-left:95px;
+    margin-right: 20px; 
+    width:57%;
+    border: 1px solid rgb(218, 217, 217) ; 
+   }
+   .information .my-title{
+    color: #1CAEA6 ;
+    text-transform: capitalize;
+    font-family: 'Noto Serif', serif; 
+}
+.connection{
+    background-color: white;
+    margin-top:130px;
+    margin-left:20px;
+    width:21%;
+    border: 1px solid rgb(218, 217, 217) ;
+}
+.connection .connect-with-me{
+    font-size: 22px;
+    color: #1CAEA6 ;
+    font-family: 'Noto Serif', serif;
+}
+.icons{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.giticon {
+    font-size:57px; 
+}
+.linkicon {
+    color:#006FBA;
+    font-size: 57px; 
+    margin-left:10px;
+}
+.flowicon{
+  color: #FFA600;
+   font-size:57px;
+   margin-left: 10px;
+}
+.author-rights{
+    background-color:gray;
+    color: rgb(195, 197, 199);
+    border-top: 8px solid #1CAEA6;
+    margin-top: 40px;
+}
+.copyright-title{
+    padding: 40px;
+}
